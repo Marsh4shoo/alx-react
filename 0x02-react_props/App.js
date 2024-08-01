@@ -1,20 +1,23 @@
-mport React from 'react';
+// task_0/dashboard/src/App/App.js
+import React from 'react';
+import Notifications from '../Notifications/Notifications';
+import Header from '../Header/Header';
+import Login from '../Login/Login';
+import Footer from '../Footer/Footer';
 import './App.css';
-import Header from './Header/Header';
-import Login from './Login/Login';
-import Footer from './Footer/Footer';
 
-function App() {
-  return (
-    <React.Fragment>
-      <div className="App">
-        <Header />
+const App = () => (
+  <>
+    <Notifications />
+    <div className="App">
+      <Header />
+      <div className="App-body">
         <Login />
-        <Footer />
       </div>
-    </React.Fragment>
-  );
-}
+      <Footer />
+    </div>
+  </>
+);
 
 export default App;
 
