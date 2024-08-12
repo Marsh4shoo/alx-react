@@ -1,11 +1,11 @@
 {
-  "name": "task_0",
+  "name": "my-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1" // Replace this with your actual test command
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "jest": "^27.0.0"
+  }
 }
+
