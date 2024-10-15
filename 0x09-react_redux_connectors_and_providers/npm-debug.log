@@ -1,0 +1,470 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'react-redux' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 warn package.json @0.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'react-redux@~9.1.2', null ]
+7 verbose cache add name=undefined spec="react-redux@~9.1.2" args=["react-redux@~9.1.2",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'react-redux@~9.1.2',
+8 verbose parsed url   path: 'react-redux@~9.1.2',
+8 verbose parsed url   href: 'react-redux@~9.1.2' }
+9 verbose cache add name="react-redux" spec="~9.1.2" args=["react-redux","~9.1.2"]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: '~9.1.2',
+10 verbose parsed url   path: '~9.1.2',
+10 verbose parsed url   href: '~9.1.2' }
+11 verbose addNamed [ 'react-redux', '~9.1.2' ]
+12 verbose addNamed [ null, '>=9.1.2-0 <9.2.0-0' ]
+13 silly lockFile ce0994d3-react-redux-9-1-2 react-redux@~9.1.2
+14 verbose lock react-redux@~9.1.2 /root/.npm/ce0994d3-react-redux-9-1-2.lock
+15 silly addNameRange { name: 'react-redux',
+15 silly addNameRange   range: '>=9.1.2-0 <9.2.0-0',
+15 silly addNameRange   hasData: false }
+16 verbose url raw react-redux
+17 verbose url resolving [ 'https://registry.npmjs.org/', './react-redux' ]
+18 verbose url resolved https://registry.npmjs.org/react-redux
+19 info trying registry request attempt 1 at 15:51:53
+20 verbose etag "52de742041ba5d8785857877252a251a"
+21 http GET https://registry.npmjs.org/react-redux
+22 http 304 https://registry.npmjs.org/react-redux
+23 silly registry.get cb [ 304,
+23 silly registry.get   { date: 'Sat, 12 Oct 2024 15:51:54 GMT',
+23 silly registry.get     connection: 'keep-alive',
+23 silly registry.get     'cf-ray': '8d1841030885c9b7-IAD',
+23 silly registry.get     'cf-cache-status': 'HIT',
+23 silly registry.get     'access-control-allow-origin': '*',
+23 silly registry.get     age: '31',
+23 silly registry.get     'cache-control': 'public, max-age=300',
+23 silly registry.get     etag: '"52de742041ba5d8785857877252a251a"',
+23 silly registry.get     'last-modified': 'Thu, 02 May 2024 02:13:15 GMT',
+23 silly registry.get     vary: 'Accept-Encoding',
+23 silly registry.get     server: 'cloudflare' } ]
+24 verbose etag react-redux from cache
+25 silly addNameRange number 2 { name: 'react-redux',
+25 silly addNameRange   range: '>=9.1.2-0 <9.2.0-0',
+25 silly addNameRange   hasData: true }
+26 silly addNameRange versions [ 'react-redux',
+26 silly addNameRange   [ '0.1.0',
+26 silly addNameRange     '1.0.0-alpha',
+26 silly addNameRange     '0.2.0',
+26 silly addNameRange     '0.2.1',
+26 silly addNameRange     '0.2.2',
+26 silly addNameRange     '0.3.0',
+26 silly addNameRange     '0.4.0',
+26 silly addNameRange     '0.5.0',
+26 silly addNameRange     '0.5.1',
+26 silly addNameRange     '0.5.2',
+26 silly addNameRange     '0.5.3',
+26 silly addNameRange     '0.6.0',
+26 silly addNameRange     '0.7.0',
+26 silly addNameRange     '0.8.0',
+26 silly addNameRange     '0.8.1',
+26 silly addNameRange     '0.8.2',
+26 silly addNameRange     '0.9.0',
+26 silly addNameRange     '1.0.0',
+26 silly addNameRange     '1.0.1',
+26 silly addNameRange     '2.0.0',
+26 silly addNameRange     '2.1.0',
+26 silly addNameRange     '2.1.1',
+26 silly addNameRange     '2.1.2',
+26 silly addNameRange     '3.0.0-alpha',
+26 silly addNameRange     '3.0.0',
+26 silly addNameRange     '3.0.1',
+26 silly addNameRange     '3.1.0',
+26 silly addNameRange     '4.0.0',
+26 silly addNameRange     '3.1.1',
+26 silly addNameRange     '4.0.1',
+26 silly addNameRange     '3.1.2',
+26 silly addNameRange     '4.0.2',
+26 silly addNameRange     '4.0.3',
+26 silly addNameRange     '4.0.4',
+26 silly addNameRange     '4.0.5',
+26 silly addNameRange     '4.0.6',
+26 silly addNameRange     '4.1.0',
+26 silly addNameRange     '4.1.1',
+26 silly addNameRange     '4.1.2',
+26 silly addNameRange     '4.2.0',
+26 silly addNameRange     '4.2.1',
+26 silly addNameRange     '4.3.0',
+26 silly addNameRange     '4.4.0',
+26 silly addNameRange     '4.4.1',
+26 silly addNameRange     '4.4.2',
+26 silly addNameRange     '4.4.3',
+26 silly addNameRange     '4.4.4',
+26 silly addNameRange     '4.4.5',
+26 silly addNameRange     '5.0.0-alpha.1',
+26 silly addNameRange     '5.0.0-beta.1',
+26 silly addNameRange     '5.0.0-beta.2',
+26 silly addNameRange     '5.0.0-beta.3',
+26 silly addNameRange     '4.4.6',
+26 silly addNameRange     '5.0.0-rc.1',
+26 silly addNameRange     '5.0.0-rc.2',
+26 silly addNameRange     '5.0.0',
+26 silly addNameRange     '5.0.1',
+26 silly addNameRange     '5.0.2',
+26 silly addNameRange     '5.0.3',
+26 silly addNameRange     '4.4.7',
+26 silly addNameRange     '5.0.4',
+26 silly addNameRange     '4.4.8',
+26 silly addNameRange     '5.0.5',
+26 silly addNameRange     '5.0.6',
+26 silly addNameRange     '5.0.7',
+26 silly addNameRange     '4.4.9',
+26 silly addNameRange     '5.1.0-test.1',
+26 silly addNameRange     '6.0.0-alpha.ede6245',
+26 silly addNameRange     '6.0.0-alpha.9210282',
+26 silly addNameRange     '6.0.0-alpha.2a2f108',
+26 silly addNameRange     '5.1.0',
+26 silly addNameRange     '6.0.0-beta.1',
+26 silly addNameRange     '6.0.0-beta.2',
+26 silly addNameRange     '5.1.1',
+26 silly addNameRange     '6.0.0-beta.3',
+26 silly addNameRange     '6.0.0',
+26 silly addNameRange     '6.0.1',
+26 silly addNameRange     '4.4.10',
+26 silly addNameRange     '7.0.0-beta.0',
+26 silly addNameRange     '7.0.0-beta.1',
+26 silly addNameRange     '7.0.0',
+26 silly addNameRange     '7.0.1',
+26 silly addNameRange     '7.0.2',
+26 silly addNameRange     '7.1.0-alpha.0',
+26 silly addNameRange     '7.1.0-alpha.1',
+26 silly addNameRange     '7.0.3',
+26 silly addNameRange     '7.1.0-alpha.2',
+26 silly addNameRange     '7.1.0-alpha.3',
+26 silly addNameRange     '7.1.0-alpha.4',
+26 silly addNameRange     '7.1.0-alpha.5',
+26 silly addNameRange     '7.1.0-rc.1',
+26 silly addNameRange     '7.1.0',
+26 silly addNameRange     '7.1.1',
+26 silly addNameRange     '5.1.2',
+26 silly addNameRange     '7.1.2-alpha.0',
+26 silly addNameRange     '7.1.2',
+26 silly addNameRange     '7.1.3',
+26 silly addNameRange     '7.2.0',
+26 silly addNameRange     '7.2.1',
+26 silly addNameRange     '7.2.2',
+26 silly addNameRange     '7.2.3',
+26 silly addNameRange     '7.2.4',
+26 silly addNameRange     '7.2.5',
+26 silly addNameRange     '8.0.0-alpha.0',
+26 silly addNameRange     '7.2.6',
+26 silly addNameRange     '8.0.0-alpha.1',
+26 silly addNameRange     '8.0.0-beta.0',
+26 silly addNameRange     '8.0.0-beta.1',
+26 silly addNameRange     '8.0.0-beta.2',
+26 silly addNameRange     '8.0.0-beta.3',
+26 silly addNameRange     '7.2.7',
+26 silly addNameRange     '7.2.8',
+26 silly addNameRange     '8.0.0-beta.4',
+26 silly addNameRange     '8.0.0-rc.0',
+26 silly addNameRange     '8.0.0-rc.1',
+26 silly addNameRange     '8.0.0',
+26 silly addNameRange     '8.0.1',
+26 silly addNameRange     '8.0.2',
+26 silly addNameRange     '7.2.9',
+26 silly addNameRange     '8.0.3',
+26 silly addNameRange     '8.0.4',
+26 silly addNameRange     '8.0.5',
+26 silly addNameRange     '8.0.6',
+26 silly addNameRange     '8.0.7',
+26 silly addNameRange     '8.1.0',
+26 silly addNameRange     '8.1.1',
+26 silly addNameRange     '8.1.2',
+26 silly addNameRange     '9.0.0-alpha.0',
+26 silly addNameRange     '9.0.0-alpha.1',
+26 silly addNameRange     '8.1.3',
+26 silly addNameRange     '9.0.0-beta.0',
+26 silly addNameRange     '9.0.0-rc.0',
+26 silly addNameRange     '9.0.0',
+26 silly addNameRange     '9.0.1',
+26 silly addNameRange     '9.0.2',
+26 silly addNameRange     '9.0.3',
+26 silly addNameRange     '9.0.4',
+26 silly addNameRange     '9.1.0',
+26 silly addNameRange     '9.1.1',
+26 silly addNameRange     '9.1.2' ] ]
+27 verbose addNamed [ 'react-redux', '9.1.2' ]
+28 verbose addNamed [ '9.1.2', '9.1.2' ]
+29 silly lockFile ac92bd36-react-redux-9-1-2 react-redux@9.1.2
+30 verbose lock react-redux@9.1.2 /root/.npm/ac92bd36-react-redux-9-1-2.lock
+31 silly lockFile ac92bd36-react-redux-9-1-2 react-redux@9.1.2
+32 silly lockFile ac92bd36-react-redux-9-1-2 react-redux@9.1.2
+33 silly lockFile ce0994d3-react-redux-9-1-2 react-redux@~9.1.2
+34 silly lockFile ce0994d3-react-redux-9-1-2 react-redux@~9.1.2
+35 silly resolved [ { name: 'react-redux',
+35 silly resolved     version: '9.1.2',
+35 silly resolved     description: 'Official React bindings for Redux',
+35 silly resolved     keywords: [ 'react', 'reactjs', 'redux' ],
+35 silly resolved     license: 'MIT',
+35 silly resolved     author:
+35 silly resolved      { name: 'Dan Abramov',
+35 silly resolved        email: 'dan.abramov@me.com',
+35 silly resolved        url: 'https://github.com/gaearon' },
+35 silly resolved     homepage: 'https://github.com/reduxjs/react-redux',
+35 silly resolved     repository: { type: 'git', url: 'github:reduxjs/react-redux' },
+35 silly resolved     bugs: { url: 'https://github.com/reduxjs/react-redux/issues' },
+35 silly resolved     module: 'dist/react-redux.legacy-esm.js',
+35 silly resolved     main: 'dist/cjs/index.js',
+35 silly resolved     'react-native': './dist/react-redux.legacy-esm.js',
+35 silly resolved     types: 'dist/react-redux.d.ts',
+35 silly resolved     exports:
+35 silly resolved      { './package.json': './package.json',
+35 silly resolved        '.': [Object],
+35 silly resolved        './alternate-renderers': [Object] },
+35 silly resolved     sideEffects: false,
+35 silly resolved     files: [ 'dist' ],
+35 silly resolved     scripts:
+35 silly resolved      { build: 'tsup',
+35 silly resolved        clean: 'rimraf lib dist es coverage',
+35 silly resolved        'api-types': 'api-extractor run --local',
+35 silly resolved        format: 'prettier --write "{src,test}/**/*.{js,ts,tsx}" "docs/**/*.md"',
+35 silly resolved        lint: 'eslint src test',
+35 silly resolved        'lint:fix': 'eslint src test --fix',
+35 silly resolved        prepare: 'yarn clean && yarn build',
+35 silly resolved        pretest: 'yarn lint',
+35 silly resolved        test: 'vitest --run',
+35 silly resolved        'test:watch': 'vitest --watch',
+35 silly resolved        'type-tests': 'yarn tsc -p test/typetests/tsconfig.json',
+35 silly resolved        coverage: 'codecov' },
+35 silly resolved     peerDependencies: { '@types/react': '^18.2.25', react: '^18.0', redux: '^5.0.0' },
+35 silly resolved     peerDependenciesMeta: { '@types/react': [Object], redux: [Object] },
+35 silly resolved     dependencies:
+35 silly resolved      { '@types/use-sync-external-store': '^0.0.3',
+35 silly resolved        'use-sync-external-store': '^1.0.0' },
+35 silly resolved     devDependencies:
+35 silly resolved      { '@babel/cli': '^7.12.1',
+35 silly resolved        '@babel/core': '^7.12.3',
+35 silly resolved        '@babel/plugin-proposal-decorators': '^7.12.1',
+35 silly resolved        '@babel/plugin-proposal-object-rest-spread': '^7.12.1',
+35 silly resolved        '@babel/plugin-transform-flow-strip-types': '^7.22.5',
+35 silly resolved        '@babel/plugin-transform-react-display-name': '^7.12.1',
+35 silly resolved        '@babel/plugin-transform-react-jsx': '^7.12.1',
+35 silly resolved        '@babel/plugin-transform-runtime': '^7.12.1',
+35 silly resolved        '@babel/preset-env': '^7.12.1',
+35 silly resolved        '@babel/preset-typescript': '^7.14.5',
+35 silly resolved        '@microsoft/api-extractor': '^7.18.1',
+35 silly resolved        '@reduxjs/toolkit': '^2.0.0-beta.4',
+35 silly resolved        '@testing-library/jest-dom': '^6.3.0',
+35 silly resolved        '@testing-library/react': '^14.1.2',
+35 silly resolved        '@testing-library/react-hooks': '^8.0.1',
+35 silly resolved        '@types/node': '^20.11.6',
+35 silly resolved        '@types/prop-types': '^15.7.12',
+35 silly resolved        '@types/react': '18.2.25',
+35 silly resolved        '@typescript-eslint/eslint-plugin': '^6.17.0',
+35 silly resolved        '@typescript-eslint/parser': '^6.17.0',
+35 silly resolved        'babel-eslint': '^10.1.0',
+35 silly resolved        codecov: '^3.8.0',
+35 silly resolved        'cross-env': '^7.0.2',
+35 silly resolved        eslint: '^8.56.0',
+35 silly resolved        'eslint-config-prettier': '^9.1.0',
+35 silly resolved        'eslint-plugin-import': '^2.29.1',
+35 silly resolved        'eslint-plugin-prettier': '^5.1.2',
+35 silly resolved        'eslint-plugin-react': '^7.33.2',
+35 silly resolved        glob: '^7.1.6',
+35 silly resolved        jsdom: '^24.0.0',
+35 silly resolved        prettier: '^3.1.1',
+35 silly resolved        react: '18.2.0',
+35 silly resolved        'react-dom': '18.2.0',
+35 silly resolved        'react-test-renderer': '18.0.0',
+35 silly resolved        redux: '^5.0.0',
+35 silly resolved        rimraf: '^3.0.2',
+35 silly resolved        tsup: '^7.0.0',
+35 silly resolved        typescript: '^5.4.2',
+35 silly resolved        vitest: '^1.2.1' },
+35 silly resolved     packageManager: 'yarn@4.1.0',
+35 silly resolved     readme: '# React Redux\r\n\r\nOfficial React bindings for [Redux](https://github.com/reduxjs/redux).\r\nPerformant and flexible.\r\n\r\n![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/reduxjs/react-redux/test.yml?style=flat-square) [![npm version](https://img.shields.io/npm/v/react-redux.svg?style=flat-square)](https://www.npmjs.com/package/react-redux)\r\n[![npm downloads](https://img.shields.io/npm/dm/react-redux.svg?style=flat-square)](https://www.npmjs.com/package/react-redux)\r\n[![#redux channel on Discord](https://img.shields.io/badge/discord-redux@reactiflux-61DAFB.svg?style=flat-square)](http://www.reactiflux.com)\r\n\r\n## Installation\r\n\r\n### Create a React Redux App\r\n\r\nThe recommended way to start new apps with React and Redux is by using [our official Redux+TS template for Vite](https://github.com/reduxjs/redux-templates), or by creating a new Next.js project using [Next\'s `with-redux` template](https://github.com/vercel/next.js/tree/canary/examples/with-redux).\r\n\r\nBoth of these already have Redux Toolkit and React-Redux configured appropriately for that build tool, and come with a small example app that demonstrates how to use several of Redux Toolkit\'s features.\r\n\r\n```bash\r\n# Vite with our Redux+TS template\r\n# (using the `degit` tool to clone and extract the template)\r\nnpx degit reduxjs/redux-templates/packages/vite-template-redux my-app\r\n\r\n# Next.js using the `with-redux` template\r\nnpx create-next-app --example with-redux my-app\r\n```\r\n\r\n### An Existing React App\r\n\r\nReact Redux 8.0 requires **React 16.8.3 or later** (or React Native 0.59 or later).\r\n\r\nTo use React Redux with your React app, install it as a dependency:\r\n\r\n```bash\r\n# If you use npm:\r\nnpm install react-redux\r\n\r\n# Or if you use Yarn:\r\nyarn add react-redux\r\n```\r\n\r\nYou\'ll also need to [install Redux](https://redux.js.org/introduction/installation) and [set up a Redux store](https://redux.js.org/recipes/configuring-your-store/) in your app.\r\n\r\nThis assumes that you’re using [npm](http://npmjs.com/) package manager\r\nwith a module bundler like [Webpack](https://webpack.js.org/) or\r\n[Browserify](http://browserify.org/) to consume [CommonJS\r\nmodules](https://webpack.js.org/api/module-methods/#commonjs).\r\n\r\nIf you don’t yet use [npm](http://npmjs.com/) or a modern module bundler, and would rather prefer a single-file [UMD](https://github.com/umdjs/umd) build that makes `ReactRedux` available as a global object, you can grab a pre-built version from [cdnjs](https://cdnjs.com/libraries/react-redux). We _don’t_ recommend this approach for any serious application, as most of the libraries complementary to Redux are only available on [npm](http://npmjs.com/).\r\n\r\n## Documentation\r\n\r\nThe React Redux docs are published at **https://react-redux.js.org** .\r\n\r\n## How Does It Work?\r\n\r\nThe post [The History and Implementation of React-Redux](https://blog.isquaredsoftware.com/2018/11/react-redux-history-implementation/)\r\nexplains what it does, how it works, and how the API and implementation have evolved over time.\r\n\r\nThere\'s also a [Deep Dive into React-Redux](https://blog.isquaredsoftware.com/2019/06/presentation-react-redux-deep-dive/) talk that covers some of the same material at a higher level.\r\n\r\n## License\r\n\r\n[MIT](LICENSE.md)\r\n',
+35 silly resolved     readmeFilename: 'README.md',
+35 silly resolved     _id: 'react-redux@9.1.2',
+35 silly resolved     _from: 'react-redux@~9.1.2' } ]
+36 info install react-redux@9.1.2 into /alx-react/0x09-react_redux_connectors_and_providers
+37 info installOne react-redux@9.1.2
+38 info /alx-react/0x09-react_redux_connectors_and_providers/node_modules/react-redux unbuild
+39 info preuninstall react-redux@9.1.2
+40 info uninstall react-redux@9.1.2
+41 verbose true,/alx-react/0x09-react_redux_connectors_and_providers/node_modules,/alx-react/0x09-react_redux_connectors_and_providers/node_modules unbuild react-redux@9.1.2
+42 info postuninstall react-redux@9.1.2
+43 verbose tar unpack /root/.npm/react-redux/9.1.2/package.tgz
+44 silly lockFile 2b434580-oviders-node-modules-react-redux tar:///alx-react/0x09-react_redux_connectors_and_providers/node_modules/react-redux
+45 verbose lock tar:///alx-react/0x09-react_redux_connectors_and_providers/node_modules/react-redux /root/.npm/2b434580-oviders-node-modules-react-redux.lock
+46 silly lockFile d2d86bfd-pm-react-redux-9-1-2-package-tgz tar:///root/.npm/react-redux/9.1.2/package.tgz
+47 verbose lock tar:///root/.npm/react-redux/9.1.2/package.tgz /root/.npm/d2d86bfd-pm-react-redux-9-1-2-package-tgz.lock
+48 silly gunzTarPerm modes [ '755', '644' ]
+49 silly gunzTarPerm extractEntry package.json
+50 silly gunzTarPerm extractEntry README.md
+51 silly gunzTarPerm extractEntry dist/react-redux.legacy-esm.js
+52 silly gunzTarPerm extractEntry dist/cjs/index.js
+53 silly gunzTarPerm extractEntry dist/cjs/react-redux.development.cjs
+54 silly gunzTarPerm extractEntry dist/cjs/react-redux.development.cjs.map
+55 silly gunzTarPerm extractEntry dist/cjs/react-redux.production.min.cjs
+56 silly gunzTarPerm extractEntry dist/cjs/react-redux.production.min.cjs.map
+57 silly gunzTarPerm extractEntry dist/react-redux.browser.mjs
+58 silly gunzTarPerm extractEntry dist/react-redux.browser.mjs.map
+59 silly gunzTarPerm extractEntry dist/react-redux.d.ts
+60 silly gunzTarPerm extractEntry dist/react-redux.legacy-esm.js.map
+61 silly gunzTarPerm extractEntry dist/react-redux.mjs
+62 silly gunzTarPerm extractEntry dist/react-redux.mjs.map
+63 silly gunzTarPerm extractEntry dist/rsc.mjs
+64 silly gunzTarPerm extractEntry dist/rsc.mjs.map
+65 silly lockFile 2b434580-oviders-node-modules-react-redux tar:///alx-react/0x09-react_redux_connectors_and_providers/node_modules/react-redux
+66 silly lockFile 2b434580-oviders-node-modules-react-redux tar:///alx-react/0x09-react_redux_connectors_and_providers/node_modules/react-redux
+67 silly lockFile d2d86bfd-pm-react-redux-9-1-2-package-tgz tar:///root/.npm/react-redux/9.1.2/package.tgz
+68 silly lockFile d2d86bfd-pm-react-redux-9-1-2-package-tgz tar:///root/.npm/react-redux/9.1.2/package.tgz
+69 info preinstall react-redux@9.1.2
+70 verbose readDependencies using package.json deps
+71 verbose readDependencies using package.json deps
+72 verbose cache add [ '@types/use-sync-external-store@^0.0.3', null ]
+73 verbose cache add name=undefined spec="@types/use-sync-external-store@^0.0.3" args=["@types/use-sync-external-store@^0.0.3",null]
+74 verbose parsed url { protocol: null,
+74 verbose parsed url   slashes: null,
+74 verbose parsed url   auth: null,
+74 verbose parsed url   host: null,
+74 verbose parsed url   port: null,
+74 verbose parsed url   hostname: null,
+74 verbose parsed url   hash: null,
+74 verbose parsed url   search: null,
+74 verbose parsed url   query: null,
+74 verbose parsed url   pathname: '@types/use-sync-external-store@^0.0.3',
+74 verbose parsed url   path: '@types/use-sync-external-store@^0.0.3',
+74 verbose parsed url   href: '@types/use-sync-external-store@^0.0.3' }
+75 verbose cache add name="" spec="types/use-sync-external-store@^0.0.3" args=["","types/use-sync-external-store@^0.0.3"]
+76 verbose parsed url { protocol: null,
+76 verbose parsed url   slashes: null,
+76 verbose parsed url   auth: null,
+76 verbose parsed url   host: null,
+76 verbose parsed url   port: null,
+76 verbose parsed url   hostname: null,
+76 verbose parsed url   hash: null,
+76 verbose parsed url   search: null,
+76 verbose parsed url   query: null,
+76 verbose parsed url   pathname: 'types/use-sync-external-store@^0.0.3',
+76 verbose parsed url   path: 'types/use-sync-external-store@^0.0.3',
+76 verbose parsed url   href: 'types/use-sync-external-store@^0.0.3' }
+77 verbose cache add name="types/use-sync-external-store" spec="^0.0.3" args=["types/use-sync-external-store","^0.0.3"]
+78 verbose parsed url { protocol: null,
+78 verbose parsed url   slashes: null,
+78 verbose parsed url   auth: null,
+78 verbose parsed url   host: null,
+78 verbose parsed url   port: null,
+78 verbose parsed url   hostname: null,
+78 verbose parsed url   hash: null,
+78 verbose parsed url   search: null,
+78 verbose parsed url   query: null,
+78 verbose parsed url   pathname: '^0.0.3',
+78 verbose parsed url   path: '^0.0.3',
+78 verbose parsed url   href: '^0.0.3' }
+79 verbose addNamed [ 'types/use-sync-external-store', '^0.0.3' ]
+80 verbose addNamed [ null, '=0.0.3' ]
+81 silly lockFile 942073ac-es-use-sync-external-store-0-0-3 types/use-sync-external-store@^0.0.3
+82 verbose lock types/use-sync-external-store@^0.0.3 /root/.npm/942073ac-es-use-sync-external-store-0-0-3.lock
+83 verbose cache add [ 'use-sync-external-store@^1.0.0', null ]
+84 verbose cache add name=undefined spec="use-sync-external-store@^1.0.0" args=["use-sync-external-store@^1.0.0",null]
+85 verbose parsed url { protocol: null,
+85 verbose parsed url   slashes: null,
+85 verbose parsed url   auth: null,
+85 verbose parsed url   host: null,
+85 verbose parsed url   port: null,
+85 verbose parsed url   hostname: null,
+85 verbose parsed url   hash: null,
+85 verbose parsed url   search: null,
+85 verbose parsed url   query: null,
+85 verbose parsed url   pathname: 'use-sync-external-store@^1.0.0',
+85 verbose parsed url   path: 'use-sync-external-store@^1.0.0',
+85 verbose parsed url   href: 'use-sync-external-store@^1.0.0' }
+86 verbose cache add name="use-sync-external-store" spec="^1.0.0" args=["use-sync-external-store","^1.0.0"]
+87 verbose parsed url { protocol: null,
+87 verbose parsed url   slashes: null,
+87 verbose parsed url   auth: null,
+87 verbose parsed url   host: null,
+87 verbose parsed url   port: null,
+87 verbose parsed url   hostname: null,
+87 verbose parsed url   hash: null,
+87 verbose parsed url   search: null,
+87 verbose parsed url   query: null,
+87 verbose parsed url   pathname: '^1.0.0',
+87 verbose parsed url   path: '^1.0.0',
+87 verbose parsed url   href: '^1.0.0' }
+88 verbose addNamed [ 'use-sync-external-store', '^1.0.0' ]
+89 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+90 silly lockFile 93cbe012-use-sync-external-store-1-0-0 use-sync-external-store@^1.0.0
+91 verbose lock use-sync-external-store@^1.0.0 /root/.npm/93cbe012-use-sync-external-store-1-0-0.lock
+92 silly addNameRange { name: 'use-sync-external-store',
+92 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
+92 silly addNameRange   hasData: false }
+93 silly addNameRange { name: 'types/use-sync-external-store',
+93 silly addNameRange   range: '=0.0.3',
+93 silly addNameRange   hasData: false }
+94 verbose url raw use-sync-external-store
+95 verbose url resolving [ 'https://registry.npmjs.org/', './use-sync-external-store' ]
+96 verbose url resolved https://registry.npmjs.org/use-sync-external-store
+97 info trying registry request attempt 1 at 15:51:55
+98 verbose etag "a86ababd70aad2f46aeaf5b6d7b920f4"
+99 http GET https://registry.npmjs.org/use-sync-external-store
+100 verbose url raw types/use-sync-external-store
+101 verbose url resolving [ 'https://registry.npmjs.org/',
+101 verbose url resolving   './types/use-sync-external-store' ]
+102 verbose url resolved https://registry.npmjs.org/types/use-sync-external-store
+103 info trying registry request attempt 1 at 15:51:55
+104 http GET https://registry.npmjs.org/types/use-sync-external-store
+105 http 304 https://registry.npmjs.org/use-sync-external-store
+106 silly registry.get cb [ 304,
+106 silly registry.get   { date: 'Sat, 12 Oct 2024 15:51:55 GMT',
+106 silly registry.get     connection: 'keep-alive',
+106 silly registry.get     'cf-ray': '8d18410e4b7b07f4-IAD',
+106 silly registry.get     'cf-cache-status': 'HIT',
+106 silly registry.get     'access-control-allow-origin': '*',
+106 silly registry.get     age: '140',
+106 silly registry.get     'cache-control': 'public, max-age=300',
+106 silly registry.get     etag: '"a86ababd70aad2f46aeaf5b6d7b920f4"',
+106 silly registry.get     'last-modified': 'Fri, 11 Oct 2024 13:18:54 GMT',
+106 silly registry.get     vary: 'Accept-Encoding',
+106 silly registry.get     server: 'cloudflare' } ]
+107 verbose etag use-sync-external-store from cache
+108 http 404 https://registry.npmjs.org/types/use-sync-external-store
+109 silly registry.get cb [ 404,
+109 silly registry.get   { date: 'Sat, 12 Oct 2024 15:51:56 GMT',
+109 silly registry.get     'content-type': 'application/json',
+109 silly registry.get     'content-length': '44',
+109 silly registry.get     connection: 'keep-alive',
+109 silly registry.get     'cf-ray': '8d18410e5d75391c-IAD',
+109 silly registry.get     'access-control-allow-origin': '*',
+109 silly registry.get     server: 'cloudflare' } ]
+110 silly addNameRange number 2 { name: 'types/use-sync-external-store',
+110 silly addNameRange   range: '=0.0.3',
+110 silly addNameRange   hasData: true }
+111 silly addNameRange versions [ undefined, [] ]
+112 error TypeError: Cannot read property 'latest' of undefined
+112 error     at next (/usr/share/npm/lib/cache.js:687:35)
+112 error     at /usr/share/npm/lib/cache.js:675:5
+112 error     at saved (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:142:7)
+112 error     at /usr/lib/nodejs/graceful-fs/polyfills.js:133:7
+112 error     at Object.oncomplete (fs.js:107:15)
+113 error If you need help, you may report this log at:
+113 error     <http://github.com/isaacs/npm/issues>
+113 error or email it to:
+113 error     <npm-@googlegroups.com>
+114 error System Linux 5.3.0-1032-aws
+115 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "react-redux"
+116 error cwd /alx-react/0x09-react_redux_connectors_and_providers
+117 error node -v v0.10.25
+118 error npm -v 1.3.10
+119 error type non_object_property_load
+120 verbose exit [ 1, true ]
